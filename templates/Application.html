@@ -1,0 +1,13 @@
+
+{% extends "layouts.html" %}
+{% block content %}
+    <h3> Application Defined here  with the help Of loops</h3>
+{% for lo in apps%}
+<li>
+    {{ lo }}
+
+</li>
+
+{% endfor%}
+
+{%  endblock content %}
